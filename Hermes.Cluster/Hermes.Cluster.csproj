@@ -7,9 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Crc32.NET" Version="1.2.0" />
-    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="6.0.4" />
-    <PackageReference Include="Microsoft.FASTER.Core" Version="2.0.2" />
+    <PackageReference Include="DotNext.AspNetCore.Cluster" Version="4.4.1" />
+    <PackageReference Include="DotNext.Net.Cluster" Version="4.4.1" />
   </ItemGroup>
 
 </Project>

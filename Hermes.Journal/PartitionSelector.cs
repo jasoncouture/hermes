@@ -1,3 +1,4 @@
+using FASTER.core;
 using Force.Crc32;
 
 namespace Hermes.Journal;
@@ -16,7 +17,7 @@ public class PartitionSelector : IPartitionSelector
     private static int ComputePartition(ArraySegment<byte> data, int partitionCount)
     {
         var partition = ((int) Crc32Algorithm.Compute(data.Array, data.Offset, data.Count) & 0x7FFFFFFF) %
-                        PartitionCount;
+                        partitionCount;
         return partition;
     }
 }

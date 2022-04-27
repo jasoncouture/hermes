@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hermes.Core.UnitTests", "He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hermes.Journal", "Hermes.Journal\Hermes.Journal.csproj", "{FC4A4BA3-8DF3-4D38-9704-CF7423700103}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hermes.Cluster", "Hermes.Cluster\Hermes.Cluster.csproj", "{DCA465C4-35A8-407F-AA2A-94121FDA3713}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{FC4A4BA3-8DF3-4D38-9704-CF7423700103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC4A4BA3-8DF3-4D38-9704-CF7423700103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC4A4BA3-8DF3-4D38-9704-CF7423700103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA465C4-35A8-407F-AA2A-94121FDA3713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA465C4-35A8-407F-AA2A-94121FDA3713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA465C4-35A8-407F-AA2A-94121FDA3713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA465C4-35A8-407F-AA2A-94121FDA3713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
