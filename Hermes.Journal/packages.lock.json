@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net6.0": {
+      "Crc32.NET": {
+        "type": "Direct",
+        "requested": "[1.2.0, )",
+        "resolved": "1.2.0",
+        "contentHash": "wNW/huzolu8MNKUnwCVKxjfAlCFpeI8AZVfF46iAWJ1+P6bTU1AZct7VAkDDEjgeeTJCVTkGZaD6jSd/fOiUkA==",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        }
+      },
+      "Microsoft.Extensions.ObjectPool": {
+        "type": "Direct",
+        "requested": "[6.0.4, )",
+        "resolved": "6.0.4",
+        "contentHash": "c2x/js/J8f/msvKY+UhXpkU7IThz31Vo9LmL4fVT8qJtF6JVgPvtL+/JuiZaZOfVZd6j6z1jMveHrInDbvWOcA=="
+      },
+      "Microsoft.FASTER.Core": {
+        "type": "Direct",
+        "requested": "[2.0.2, )",
+        "resolved": "2.0.2",
+        "contentHash": "GYmMLcSJSQjRkJW7nhObUpVE1xKGScPTvcYinlmpRkFgnZGx0idZtnQwSw2k7YySP6EOYcaLnb3qZi+G680fBw==",
+        "dependencies": {
+          "System.Interactive.Async": "6.0.1",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces": {
+        "type": "Transitive",
+        "resolved": "6.0.0",
+        "contentHash": "UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg=="
+      },
+      "Microsoft.NETCore.Platforms": {
+        "type": "Transitive",
+        "resolved": "1.1.0",
+        "contentHash": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A=="
+      },
+      "NETStandard.Library": {
+        "type": "Transitive",
+        "resolved": "2.0.0",
+        "contentHash": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "System.Interactive.Async": {
+        "type": "Transitive",
+        "resolved": "6.0.1",
+        "contentHash": "f8H1O4ZWDQo344y5NQU76G4SIjWMuKDVXL9OM1dg6K5YZnLkc8iCdQDybBvMcC6ufk61jzXGVAX6UCDu0qDSjA==",
+        "dependencies": {
+          "System.Linq.Async": "6.0.1"
+        }
+      },
+      "System.Linq.Async": {
+        "type": "Transitive",
+        "resolved": "6.0.1",
+        "contentHash": "0YhHcaroWpQ9UCot3Pizah7ryAzQhNvobLMSxeDIGmnXfkQn8u5owvpOH0K6EVB+z9L7u6Cc4W17Br/+jyttEQ==",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe": {
+        "type": "Transitive",
+        "resolved": "6.0.0",
+        "contentHash": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg=="
+      }
+    }
+  }
+}

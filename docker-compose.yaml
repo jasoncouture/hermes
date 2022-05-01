@@ -2,7 +2,7 @@ version: "3.0"
 services:
   cluster:
     build: 
-      dockerfile: Hermes.Journal.Server/Dockerfile
+      dockerfile: Hermes.Cluster.Server/Dockerfile
       context: .
     ports:
       - "9090"

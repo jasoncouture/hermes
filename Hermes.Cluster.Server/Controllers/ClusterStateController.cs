@@ -5,7 +5,7 @@ using DotNext.Net.Cluster.Consensus.Raft.Membership;
 using DotNext.Net.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Hermes.Journal.Server.Controllers;
+namespace Hermes.Cluster.Server.Controllers;
 
 [ApiController]
 [Route("api/clusterState")]

@@ -3,7 +3,7 @@ using System.Net;
 using DotNext.Net.Cluster;
 using DotNext.Net.Http;
 
-namespace Hermes.Journal.Server.Bootstrap;
+namespace Hermes.Cluster.Server.Bootstrap;
 
 public class DnsBootstrapper
 {
