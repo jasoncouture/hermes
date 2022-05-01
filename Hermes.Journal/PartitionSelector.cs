@@ -3,11 +3,17 @@ using Force.Crc32;
 
 namespace Hermes.Journal;
 
-public class PartitionSelector : IPartitionSelector
+public sealed class PartitionSelector : IPartitionSelector
 {
     private const int PartitionCount = 1024;
+    private static int _nextPartition = 0;
 
-    public int SelectRandomPartition() => ComputePartition(Guid.NewGuid().ToByteArray(), PartitionCount);
+    private static int GetNextPartition()
+    {
+        return Interlocked.Increment(ref _nextPartition) % PartitionCount;
+    }
+
+    public int SelectRandomPartition() => GetNextPartition();
 
     public int SelectPartitionForKey(ArraySegment<byte> key)
     {
