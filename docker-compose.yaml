@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+  cluster:
+    build: 
+      dockerfile: Hermes.Journal.Server/Dockerfile
+      context: .
+    ports:
+      - "9090"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+      ASPNETCORE_DISCOVERYDNS: "cluster"
